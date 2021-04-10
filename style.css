@@ -1,0 +1,98 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: grey;
+  font-size: 30px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 60px auto;
+  box-shadow: 2px 2px 20px black;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  margin-top: 100px;
+  text-align: right;
+  word-wrap: break-word;
+  background-color: white;
+}
+
+input {
+  background-color: white;
+  height: 50px;
+  width: 99%;
+  margin: auto;
+  padding: 0;
+}
+
+.finalAnswer {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  margin: 0;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin: 0px;
+}
+
+.keys div {
+  margin: 0px;
+  padding: 22px;
+  color: aliceblue;
+  text-align: center;
+  background-color: #333;
+}
+
+.keys div:hover {
+  background-color: #444;
+  /* box-shadow: 2px 2px 20px red; */
+  /* transition: ease-in-out 800ms; */
+}
+
+.flexDiv {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* background-color: #333; */
+}
+
+.operators div {
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+.operators div:hover {
+  background-color: #ccc;
+  /* box-shadow: 2px 2px 20px red; */
+  /* transition: ease-in-out 800ms; */
+}
+.operators {
+  background-color: #aaa;
+  height: 100%;
+}
+
+#c {
+  background-color: red;
+}
+
+/* #equal {
+  background-color: green;
+} */
+
+@media (max-width: 450px) {
+  .container {
+    width: 100%;
+  }
+}
